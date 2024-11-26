@@ -1,0 +1,13 @@
+<html>
+<body>
+<input type="text" id="userinput"> <!-- value="<img src=x onerror=alert(1)>">-->
+<div id="output" onclick='foo()'>Your input will appear here</div>
+<script>
+  function foo(){
+    userinput = document.getElementById('userinput').value;
+    output = document.getElementById('output');
+    output.innerHTML = "Your input was: " + userinput;
+  }
+</script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+python -m venv venv
+.\venv\Scripts\activate
+pip install -r requirements.txt
+python TP1.py
+http://127.0.0.1:5000/lire_fichier?nom=docs.txt
+http://127.0.0.1:5000/lire_fichier?nom=../docsCacher/docs.txt
