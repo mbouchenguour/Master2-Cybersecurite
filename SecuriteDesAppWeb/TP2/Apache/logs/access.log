@@ -20,3 +20,76 @@
 ::1 - - [10/Dec/2024:09:50:06 +0100] "GET /guestbook.php HTTP/1.1" 200 771
 ::1 - - [10/Dec/2024:09:51:02 +0100] "-" 408 -
 ::1 - - [10/Dec/2024:09:51:10 +0100] "GET /guestbook.php HTTP/1.1" 200 771
+::1 - - [10/Dec/2024:10:43:34 +0100] "GET /guestbook.php HTTP/1.1" 200 771
+::1 - - [10/Dec/2024:10:43:47 +0100] "GET /guestbook.php HTTP/1.1" 200 773
+::1 - - [10/Dec/2024:10:44:29 +0100] "GET /guestbook.php HTTP/1.1" 200 773
+::1 - - [10/Dec/2024:10:45:15 +0100] "GET /guestbook.php HTTP/1.1" 200 773
+::1 - - [10/Dec/2024:10:45:47 +0100] "GET /guestbook.php HTTP/1.1" 200 773
+::1 - - [10/Dec/2024:10:46:01 +0100] "GET /guestbook.php HTTP/1.1" 200 773
+::1 - - [10/Dec/2024:10:46:03 +0100] "GET /guestbookleavemessage.php?message=sqdqs HTTP/1.1" 200 16
+::1 - - [10/Dec/2024:10:46:08 +0100] "GET /guestbook.php HTTP/1.1" 200 782
+::1 - - [10/Dec/2024:10:46:15 +0100] "-" 408 -
+::1 - - [10/Dec/2024:10:46:29 +0100] "GET /tp2/mycode/guestbook_csp_header.php HTTP/1.1" 404 196
+::1 - - [10/Dec/2024:10:46:57 +0100] "GET /guestbook.php HTTP/1.1" 200 782
+::1 - - [10/Dec/2024:10:47:33 +0100] "GET /guestbook.php HTTP/1.1" 200 782
+::1 - - [10/Dec/2024:10:47:57 +0100] "-" 408 -
+::1 - - [10/Dec/2024:10:48:16 +0100] "GET /guestbook.php HTTP/1.1" 200 782
+::1 - - [10/Dec/2024:10:48:20 +0100] "GET /guestbook.php HTTP/1.1" 200 782
+::1 - - [10/Dec/2024:10:49:16 +0100] "-" 408 -
+::1 - - [10/Dec/2024:10:49:16 +0100] "GET /guestbook.php HTTP/1.1" 200 782
+::1 - - [10/Dec/2024:10:49:26 +0100] "GET /guestbook.php HTTP/1.1" 200 782
+::1 - - [10/Dec/2024:10:50:26 +0100] "-" 408 -
+::1 - - [10/Dec/2024:10:52:24 +0100] "GET /guestbook.php HTTP/1.1" 200 782
+::1 - - [10/Dec/2024:10:52:25 +0100] "GET /guestbook.php HTTP/1.1" 200 782
+::1 - - [10/Dec/2024:10:53:25 +0100] "GET /guestbook.php HTTP/1.1" 200 782
+::1 - - [10/Dec/2024:10:54:25 +0100] "-" 408 -
+127.0.0.1 - - [10/Dec/2024:10:54:42 +0100] "GET /guestbook.php HTTP/1.1" 200 782
+127.0.0.1 - - [10/Dec/2024:10:54:42 +0100] "GET /favicon.ico HTTP/1.1" 404 196
+127.0.0.1 - - [10/Dec/2024:10:55:32 +0100] "GET /guestbook.php HTTP/1.1" 200 782
+::1 - - [10/Dec/2024:10:55:38 +0100] "GET /guestbook.php HTTP/1.1" 200 782
+::1 - - [10/Dec/2024:10:56:38 +0100] "-" 408 -
+::1 - - [10/Dec/2024:10:56:49 +0100] "GET /guestbook.php HTTP/1.1" 200 316
+::1 - - [10/Dec/2024:10:56:49 +0100] "GET /mon_script.js HTTP/1.1" 404 196
+::1 - - [10/Dec/2024:10:57:14 +0100] "GET /guestbook.php HTTP/1.1" 200 320
+::1 - - [10/Dec/2024:10:57:14 +0100] "GET /scriptgustbook.js HTTP/1.1" 200 463
+::1 - - [10/Dec/2024:10:57:57 +0100] "GET /guestbook.php HTTP/1.1" 200 782
+::1 - - [10/Dec/2024:10:58:13 +0100] "GET /guestbook.php HTTP/1.1" 200 782
+::1 - - [10/Dec/2024:10:58:21 +0100] "GET /guestbook.php HTTP/1.1" 200 782
+::1 - - [10/Dec/2024:10:59:13 +0100] "-" 408 -
+::1 - - [10/Dec/2024:11:03:22 +0100] "GET /guestbook.php HTTP/1.1" 200 316
+::1 - - [10/Dec/2024:11:03:22 +0100] "GET /scriptgustbook.js HTTP/1.1" 200 463
+::1 - - [10/Dec/2024:11:04:22 +0100] "-" 408 -
+::1 - - [10/Dec/2024:11:04:25 +0100] "GET /guestbook.php HTTP/1.1" 200 314
+::1 - - [10/Dec/2024:11:04:25 +0100] "GET /scriptgustbook.js HTTP/1.1" 200 537
+::1 - - [10/Dec/2024:11:05:05 +0100] "GET /guestbook.php HTTP/1.1" 200 314
+::1 - - [10/Dec/2024:11:05:05 +0100] "GET /scriptgustbook.js HTTP/1.1" 304 -
+::1 - - [10/Dec/2024:11:05:53 +0100] "GET /guestbook.php HTTP/1.1" 200 313
+::1 - - [10/Dec/2024:11:05:53 +0100] "GET /scriptgustbook.js HTTP/1.1" 304 -
+::1 - - [10/Dec/2024:11:05:55 +0100] "GET /guestbookleavemessage.php?message=dsfdsf HTTP/1.1" 200 26
+::1 - - [10/Dec/2024:11:05:59 +0100] "GET /guestbookleavemessage.php?message=dvssvdsdv HTTP/1.1" 200 39
+::1 - - [10/Dec/2024:11:06:01 +0100] "GET /guestbookleavemessage.php?message=dvssvdsdvqdfsdsf HTTP/1.1" 200 59
+::1 - - [10/Dec/2024:11:06:13 +0100] "GET /guestbookleavemessage.php?message=%3Cscript%3Ealert(%27xss%27)%3C/script%3E HTTP/1.1" 200 92
+::1 - - [10/Dec/2024:11:06:14 +0100] "GET /guestbook.php HTTP/1.1" 200 389
+::1 - - [10/Dec/2024:11:06:14 +0100] "GET /scriptgustbook.js HTTP/1.1" 304 -
+::1 - - [10/Dec/2024:11:06:17 +0100] "GET /guestbookleavemessage.php?message=dsdsfdsf HTTP/1.1" 200 104
+::1 - - [10/Dec/2024:11:06:18 +0100] "GET /guestbookleavemessage.php?message=dsdsfdsfsdfsd HTTP/1.1" 200 121
+::1 - - [10/Dec/2024:11:06:19 +0100] "GET /guestbook.php HTTP/1.1" 200 418
+::1 - - [10/Dec/2024:11:06:44 +0100] "GET /xssme.php HTTP/1.1" 200 1894
+::1 - - [10/Dec/2024:11:06:44 +0100] "GET /%3Cbr HTTP/1.1" 403 199
+::1 - - [10/Dec/2024:11:06:44 +0100] "GET /1 HTTP/1.1" 404 196
+::1 - - [10/Dec/2024:11:08:25 +0100] "GET /tp2/ressources/xssme.php?htmlcontext=%3Cscript%3Ealert(%22xss%22)%3C/script%3E HTTP/1.1" 404 196
+::1 - - [10/Dec/2024:11:09:11 +0100] "GET /xssme.php?htmlcontext=%3Cscript%3Ealert(%22xss%22)%3C/script%3E HTTP/1.1" 200 1732
+::1 - - [10/Dec/2024:11:09:11 +0100] "GET /%3Cbr HTTP/1.1" 403 199
+::1 - - [10/Dec/2024:11:09:11 +0100] "GET /1 HTTP/1.1" 404 196
+::1 - - [10/Dec/2024:11:09:53 +0100] "GET /xssme.php?htmlcontext=%3Cscript%3Ealert(%27xss%27);%3C/script%3E HTTP/1.1" 200 1733
+::1 - - [10/Dec/2024:11:09:53 +0100] "GET /%3Cbr HTTP/1.1" 403 199
+::1 - - [10/Dec/2024:11:09:53 +0100] "GET /1 HTTP/1.1" 404 196
+::1 - - [10/Dec/2024:11:12:12 +0100] "-" 408 -
+::1 - - [10/Dec/2024:11:15:29 +0100] "GET /xssme.php?attributecontext1=1%20onerror=alert(%27Attribute%20XSS%27) HTTP/1.1" 200 1728
+::1 - - [10/Dec/2024:11:15:29 +0100] "GET /1 HTTP/1.1" 404 196
+::1 - - [10/Dec/2024:11:15:29 +0100] "GET /1 HTTP/1.1" 404 196
+::1 - - [10/Dec/2024:11:15:33 +0100] "GET /xssme.php?attributecontext1=%27%27%20onerror=alert(%27Attribute%20XSS%27) HTTP/1.1" 200 1729
+::1 - - [10/Dec/2024:11:15:34 +0100] "GET /1 HTTP/1.1" 404 196
+::1 - - [10/Dec/2024:11:15:52 +0100] "GET /xssme.php?attributecontext1=%27%27%20onerror=alert(%22xss%22) HTTP/1.1" 200 1719
+::1 - - [10/Dec/2024:11:15:52 +0100] "GET /1 HTTP/1.1" 404 196
+::1 - - [10/Dec/2024:11:16:52 +0100] "-" 408 -

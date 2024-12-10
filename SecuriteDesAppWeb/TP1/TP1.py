@@ -4,7 +4,7 @@ from pathlib import Path
 app = Flask(__name__)
 
 def lire_fichier(nom_du_fichier):
-    repertoire_principal = Path("C:/Users/Momol/Documents/Master2-Cybersecurite/SecuriteDesAppWeb/TP1/docs")
+    repertoire_principal = Path("C:/Users/Momol/Documents/GitHub/Master2-Cybersecurite/SecuriteDesAppWeb/TP1/docs")
     chemin_complet = repertoire_principal / nom_du_fichier
     
     try:

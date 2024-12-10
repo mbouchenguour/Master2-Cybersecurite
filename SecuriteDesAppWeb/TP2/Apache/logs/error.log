@@ -2,5 +2,58 @@
 [Tue Dec 10 09:30:18.840857 2024] [mpm_winnt:notice] [pid 24480:tid 400] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
 [Tue Dec 10 09:30:18.840857 2024] [core:notice] [pid 24480:tid 400] AH00094: Command line: 'C:\\Users\\Momol\\Documents\\GitHub\\Master2-Cybersecurite\\SecuriteDesAppWeb\\TP2\\Apache\\bin\\httpd.exe -d C:/Users/Momol/Documents/GitHub/Master2-Cybersecurite/SecuriteDesAppWeb/TP2/Apache'
 [Tue Dec 10 09:30:18.840857 2024] [mpm_winnt:notice] [pid 24480:tid 400] AH00418: Parent: Created child process 2256
-[Tue Dec 10 09:30:19.146353 2024] [mpm_winnt:notice] [pid 2256:tid 368] AH00354: Child: Starting 64 worker threads.
+Apache server interrupted...
+024] [mpm_winnt:notice] [pid 2256:tid 368] AH00354: Child: Starting 64 worker threads.
 [Tue Dec 10 09:32:31.725736 2024] [php:warn] [pid 2256:tid 1308] [client ::1:34158] PHP Warning:  file_get_contents(messages.txt): Failed to open stream: No such file or directory in C:\\Users\\Momol\\Documents\\GitHub\\Master2-Cybersecurite\\SecuriteDesAppWeb\\TP2\\Apache\\htdocs\\guestbook.php on line 3
+[Tue Dec 10 10:44:04.704312 2024] [mpm_winnt:notice] [pid 24480:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+[Tue Dec 10 10:44:27.082479 2024] [core:warn] [pid 14960:tid 404] AH00098: pid file C:/Users/Momol/Documents/GitHub/Master2-Cybersecurite/SecuriteDesAppWeb/TP2/Apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Dec 10 10:44:27.104465 2024] [mpm_winnt:notice] [pid 14960:tid 404] AH00455: Apache/2.4.62 (Win64) PHP/8.4.1 configured -- resuming normal operations
+[Tue Dec 10 10:44:27.104465 2024] [mpm_winnt:notice] [pid 14960:tid 404] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Tue Dec 10 10:44:27.104465 2024] [core:notice] [pid 14960:tid 404] AH00094: Command line: 'C:\\Users\\Momol\\Documents\\GitHub\\Master2-Cybersecurite\\SecuriteDesAppWeb\\TP2\\Apache\\bin\\httpd.exe -d C:/Users/Momol/Documents/GitHub/Master2-Cybersecurite/SecuriteDesAppWeb/TP2/Apache'
+[Tue Dec 10 10:44:27.107927 2024] [mpm_winnt:notice] [pid 14960:tid 404] AH00418: Parent: Created child process 13332
+[Tue Dec 10 10:44:27.404230 2024] [mpm_winnt:notice] [pid 13332:tid 376] AH00354: Child: Starting 64 worker threads.
+[Tue Dec 10 10:44:29.136922 2024] [mpm_winnt:notice] [pid 2256:tid 368] AH00364: Child: All worker threads have exited.
+[Tue Dec 10 11:06:44.584472 2024] [php:warn] [pid 13332:tid 1324] [client ::1:37555] PHP Warning:  Undefined array key "htmlcontext" in C:\\Users\\Momol\\Documents\\GitHub\\Master2-Cybersecurite\\SecuriteDesAppWeb\\TP2\\Apache\\htdocs\\xssme.php on line 9
+[Tue Dec 10 11:06:44.584472 2024] [php:warn] [pid 13332:tid 1324] [client ::1:37555] PHP Warning:  Undefined array key "attributecontext1" in C:\\Users\\Momol\\Documents\\GitHub\\Master2-Cybersecurite\\SecuriteDesAppWeb\\TP2\\Apache\\htdocs\\xssme.php on line 15
+[Tue Dec 10 11:06:44.584472 2024] [php:warn] [pid 13332:tid 1324] [client ::1:37555] PHP Warning:  Undefined array key "attributecontext2" in C:\\Users\\Momol\\Documents\\GitHub\\Master2-Cybersecurite\\SecuriteDesAppWeb\\TP2\\Apache\\htdocs\\xssme.php on line 16
+[Tue Dec 10 11:06:44.584472 2024] [php:warn] [pid 13332:tid 1324] [client ::1:37555] PHP Warning:  Undefined array key "attributecontext3" in C:\\Users\\Momol\\Documents\\GitHub\\Master2-Cybersecurite\\SecuriteDesAppWeb\\TP2\\Apache\\htdocs\\xssme.php on line 17
+[Tue Dec 10 11:06:44.584472 2024] [php:warn] [pid 13332:tid 1324] [client ::1:37555] PHP Warning:  Undefined array key "scriptcontext" in C:\\Users\\Momol\\Documents\\GitHub\\Master2-Cybersecurite\\SecuriteDesAppWeb\\TP2\\Apache\\htdocs\\xssme.php on line 21
+[Tue Dec 10 11:06:44.584472 2024] [php:warn] [pid 13332:tid 1324] [client ::1:37555] PHP Warning:  Undefined array key "attributecontextonerror" in C:\\Users\\Momol\\Documents\\GitHub\\Master2-Cybersecurite\\SecuriteDesAppWeb\\TP2\\Apache\\htdocs\\xssme.php on line 28
+[Tue Dec 10 11:06:44.630757 2024] [core:error] [pid 13332:tid 1324] (20024)The given path is misformatted or contained invalid characters: [client ::1:37555] AH00127: Cannot map GET /%3Cbr HTTP/1.1 to file, referer: http://localhost:8080/xssme.php
+[Tue Dec 10 11:09:11.607816 2024] [php:warn] [pid 13332:tid 1328] [client ::1:37721] PHP Warning:  Undefined array key "attributecontext1" in C:\\Users\\Momol\\Documents\\GitHub\\Master2-Cybersecurite\\SecuriteDesAppWeb\\TP2\\Apache\\htdocs\\xssme.php on line 15
+[Tue Dec 10 11:09:11.607816 2024] [php:warn] [pid 13332:tid 1328] [client ::1:37721] PHP Warning:  Undefined array key "attributecontext2" in C:\\Users\\Momol\\Documents\\GitHub\\Master2-Cybersecurite\\SecuriteDesAppWeb\\TP2\\Apache\\htdocs\\xssme.php on line 16
+[Tue Dec 10 11:09:11.607816 2024] [php:warn] [pid 13332:tid 1328] [client ::1:37721] PHP Warning:  Undefined array key "attributecontext3" in C:\\Users\\Momol\\Documents\\GitHub\\Master2-Cybersecurite\\SecuriteDesAppWeb\\TP2\\Apache\\htdocs\\xssme.php on line 17
+[Tue Dec 10 11:09:11.607816 2024] [php:warn] [pid 13332:tid 1328] [client ::1:37721] PHP Warning:  Undefined array key "scriptcontext" in C:\\Users\\Momol\\Documents\\GitHub\\Master2-Cybersecurite\\SecuriteDesAppWeb\\TP2\\Apache\\htdocs\\xssme.php on line 21
+[Tue Dec 10 11:09:11.607816 2024] [php:warn] [pid 13332:tid 1328] [client ::1:37721] PHP Warning:  Undefined array key "attributecontextonerror" in C:\\Users\\Momol\\Documents\\GitHub\\Master2-Cybersecurite\\SecuriteDesAppWeb\\TP2\\Apache\\htdocs\\xssme.php on line 28
+[Tue Dec 10 11:09:11.653462 2024] [core:error] [pid 13332:tid 1328] (20024)The given path is misformatted or contained invalid characters: [client ::1:37721] AH00127: Cannot map GET /%3Cbr HTTP/1.1 to file, referer: http://localhost:8080/xssme.php?htmlcontext=%3Cscript%3Ealert(%22xss%22)%3C/script%3E
+[Tue Dec 10 11:09:53.331438 2024] [php:warn] [pid 13332:tid 1324] [client ::1:37803] PHP Warning:  Undefined array key "attributecontext1" in C:\\Users\\Momol\\Documents\\GitHub\\Master2-Cybersecurite\\SecuriteDesAppWeb\\TP2\\Apache\\htdocs\\xssme.php on line 15
+[Tue Dec 10 11:09:53.331438 2024] [php:warn] [pid 13332:tid 1324] [client ::1:37803] PHP Warning:  Undefined array key "attributecontext2" in C:\\Users\\Momol\\Documents\\GitHub\\Master2-Cybersecurite\\SecuriteDesAppWeb\\TP2\\Apache\\htdocs\\xssme.php on line 16
+[Tue Dec 10 11:09:53.331438 2024] [php:warn] [pid 13332:tid 1324] [client ::1:37803] PHP Warning:  Undefined array key "attributecontext3" in C:\\Users\\Momol\\Documents\\GitHub\\Master2-Cybersecurite\\SecuriteDesAppWeb\\TP2\\Apache\\htdocs\\xssme.php on line 17
+[Tue Dec 10 11:09:53.331438 2024] [php:warn] [pid 13332:tid 1324] [client ::1:37803] PHP Warning:  Undefined array key "scriptcontext" in C:\\Users\\Momol\\Documents\\GitHub\\Master2-Cybersecurite\\SecuriteDesAppWeb\\TP2\\Apache\\htdocs\\xssme.php on line 21
+[Tue Dec 10 11:09:53.331438 2024] [php:warn] [pid 13332:tid 1324] [client ::1:37803] PHP Warning:  Undefined array key "attributecontextonerror" in C:\\Users\\Momol\\Documents\\GitHub\\Master2-Cybersecurite\\SecuriteDesAppWeb\\TP2\\Apache\\htdocs\\xssme.php on line 28
+[Tue Dec 10 11:09:53.381531 2024] [core:error] [pid 13332:tid 1324] (20024)The given path is misformatted or contained invalid characters: [client ::1:37803] AH00127: Cannot map GET /%3Cbr HTTP/1.1 to file, referer: http://localhost:8080/xssme.php?htmlcontext=%3Cscript%3Ealert(%27xss%27);%3C/script%3E
+[Tue Dec 10 11:15:29.146890 2024] [php:warn] [pid 13332:tid 1324] [client ::1:38102] PHP Warning:  Undefined array key "htmlcontext" in C:\\Users\\Momol\\Documents\\GitHub\\Master2-Cybersecurite\\SecuriteDesAppWeb\\TP2\\Apache\\htdocs\\xssme.php on line 9
+[Tue Dec 10 11:15:29.146890 2024] [php:warn] [pid 13332:tid 1324] [client ::1:38102] PHP Warning:  Undefined array key "attributecontext2" in C:\\Users\\Momol\\Documents\\GitHub\\Master2-Cybersecurite\\SecuriteDesAppWeb\\TP2\\Apache\\htdocs\\xssme.php on line 16
+[Tue Dec 10 11:15:29.146890 2024] [php:warn] [pid 13332:tid 1324] [client ::1:38102] PHP Warning:  Undefined array key "attributecontext3" in C:\\Users\\Momol\\Documents\\GitHub\\Master2-Cybersecurite\\SecuriteDesAppWeb\\TP2\\Apache\\htdocs\\xssme.php on line 17
+[Tue Dec 10 11:15:29.146890 2024] [php:warn] [pid 13332:tid 1324] [client ::1:38102] PHP Warning:  Undefined array key "scriptcontext" in C:\\Users\\Momol\\Documents\\GitHub\\Master2-Cybersecurite\\SecuriteDesAppWeb\\TP2\\Apache\\htdocs\\xssme.php on line 21
+[Tue Dec 10 11:15:29.146890 2024] [php:warn] [pid 13332:tid 1324] [client ::1:38102] PHP Warning:  Undefined array key "attributecontextonerror" in C:\\Users\\Momol\\Documents\\GitHub\\Master2-Cybersecurite\\SecuriteDesAppWeb\\TP2\\Apache\\htdocs\\xssme.php on line 28
+[Tue Dec 10 11:15:33.989134 2024] [php:warn] [pid 13332:tid 1324] [client ::1:38102] PHP Warning:  Undefined array key "htmlcontext" in C:\\Users\\Momol\\Documents\\GitHub\\Master2-Cybersecurite\\SecuriteDesAppWeb\\TP2\\Apache\\htdocs\\xssme.php on line 9
+[Tue Dec 10 11:15:33.989134 2024] [php:warn] [pid 13332:tid 1324] [client ::1:38102] PHP Warning:  Undefined array key "attributecontext2" in C:\\Users\\Momol\\Documents\\GitHub\\Master2-Cybersecurite\\SecuriteDesAppWeb\\TP2\\Apache\\htdocs\\xssme.php on line 16
+[Tue Dec 10 11:15:33.989134 2024] [php:warn] [pid 13332:tid 1324] [client ::1:38102] PHP Warning:  Undefined array key "attributecontext3" in C:\\Users\\Momol\\Documents\\GitHub\\Master2-Cybersecurite\\SecuriteDesAppWeb\\TP2\\Apache\\htdocs\\xssme.php on line 17
+[Tue Dec 10 11:15:33.989134 2024] [php:warn] [pid 13332:tid 1324] [client ::1:38102] PHP Warning:  Undefined array key "scriptcontext" in C:\\Users\\Momol\\Documents\\GitHub\\Master2-Cybersecurite\\SecuriteDesAppWeb\\TP2\\Apache\\htdocs\\xssme.php on line 21
+[Tue Dec 10 11:15:33.989134 2024] [php:warn] [pid 13332:tid 1324] [client ::1:38102] PHP Warning:  Undefined array key "attributecontextonerror" in C:\\Users\\Momol\\Documents\\GitHub\\Master2-Cybersecurite\\SecuriteDesAppWeb\\TP2\\Apache\\htdocs\\xssme.php on line 28
+[Tue Dec 10 11:15:52.547718 2024] [php:warn] [pid 13332:tid 1328] [client ::1:38103] PHP Warning:  Undefined array key "htmlcontext" in C:\\Users\\Momol\\Documents\\GitHub\\Master2-Cybersecurite\\SecuriteDesAppWeb\\TP2\\Apache\\htdocs\\xssme.php on line 9
+[Tue Dec 10 11:15:52.547718 2024] [php:warn] [pid 13332:tid 1328] [client ::1:38103] PHP Warning:  Undefined array key "attributecontext2" in C:\\Users\\Momol\\Documents\\GitHub\\Master2-Cybersecurite\\SecuriteDesAppWeb\\TP2\\Apache\\htdocs\\xssme.php on line 16
+[Tue Dec 10 11:15:52.547718 2024] [php:warn] [pid 13332:tid 1328] [client ::1:38103] PHP Warning:  Undefined array key "attributecontext3" in C:\\Users\\Momol\\Documents\\GitHub\\Master2-Cybersecurite\\SecuriteDesAppWeb\\TP2\\Apache\\htdocs\\xssme.php on line 17
+[Tue Dec 10 11:15:52.547718 2024] [php:warn] [pid 13332:tid 1328] [client ::1:38103] PHP Warning:  Undefined array key "scriptcontext" in C:\\Users\\Momol\\Documents\\GitHub\\Master2-Cybersecurite\\SecuriteDesAppWeb\\TP2\\Apache\\htdocs\\xssme.php on line 21
+[Tue Dec 10 11:15:52.547718 2024] [php:warn] [pid 13332:tid 1328] [client ::1:38103] PHP Warning:  Undefined array key "attributecontextonerror" in C:\\Users\\Momol\\Documents\\GitHub\\Master2-Cybersecurite\\SecuriteDesAppWeb\\TP2\\Apache\\htdocs\\xssme.php on line 28

