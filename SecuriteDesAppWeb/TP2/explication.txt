@@ -1,0 +1,6 @@
+Question 1 :
+Mettre le code suivant dans le message :
+<script>alert('xss')</script>
+
+Pour CSP Header, il faut ajouter le code suivant au début de guestbook.php et guestbookleavemessage.php:
+header("Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self';");

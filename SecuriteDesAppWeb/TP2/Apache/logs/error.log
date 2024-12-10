@@ -1,0 +1,6 @@
+[Tue Dec 10 09:30:18.840857 2024] [mpm_winnt:notice] [pid 24480:tid 400] AH00455: Apache/2.4.62 (Win64) PHP/8.4.1 configured -- resuming normal operations
+[Tue Dec 10 09:30:18.840857 2024] [mpm_winnt:notice] [pid 24480:tid 400] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Tue Dec 10 09:30:18.840857 2024] [core:notice] [pid 24480:tid 400] AH00094: Command line: 'C:\\Users\\Momol\\Documents\\GitHub\\Master2-Cybersecurite\\SecuriteDesAppWeb\\TP2\\Apache\\bin\\httpd.exe -d C:/Users/Momol/Documents/GitHub/Master2-Cybersecurite/SecuriteDesAppWeb/TP2/Apache'
+[Tue Dec 10 09:30:18.840857 2024] [mpm_winnt:notice] [pid 24480:tid 400] AH00418: Parent: Created child process 2256
+[Tue Dec 10 09:30:19.146353 2024] [mpm_winnt:notice] [pid 2256:tid 368] AH00354: Child: Starting 64 worker threads.
+[Tue Dec 10 09:32:31.725736 2024] [php:warn] [pid 2256:tid 1308] [client ::1:34158] PHP Warning:  file_get_contents(messages.txt): Failed to open stream: No such file or directory in C:\\Users\\Momol\\Documents\\GitHub\\Master2-Cybersecurite\\SecuriteDesAppWeb\\TP2\\Apache\\htdocs\\guestbook.php on line 3

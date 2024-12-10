@@ -1,4 +1,5 @@
 <?php 
+header("Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self';");
 $file="messages.txt";
 $messages=file_get_contents($file);
  ?>
