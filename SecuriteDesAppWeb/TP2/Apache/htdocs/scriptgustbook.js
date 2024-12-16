@@ -6,7 +6,7 @@ function save(){
 show.innerHTML= xmlhttp.responseText;       
     } ; 
     var input=document.getElementById("message").value;
-    var url = "http://localhost:8080/guestbookleavemessage.php?message="+input;
+    var url = "http://localhost:80/guestbookleavemessage.php?message="+input;
     var xmlhttp = new XMLHttpRequest();	    
     xmlhttp.open('GET',url, true);
     xmlhttp.onreadystatechange = callback;

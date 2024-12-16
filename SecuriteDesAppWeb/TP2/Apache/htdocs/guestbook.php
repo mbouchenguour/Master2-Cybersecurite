@@ -1,5 +1,5 @@
 <?php 
-header("Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self'; object-src 'none'; connect-src 'self' http://localhost:8080;");
+header("Content-Security-Policy: script-src 'self'");
 $file="messages.txt";
 $messages=file_get_contents($file);
  ?>
