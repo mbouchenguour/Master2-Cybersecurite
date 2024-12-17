@@ -1,0 +1,10 @@
+<?php
+setcookie("subdomaincookie","value"); 
+?>
+<html>
+<head>
+</head>
+<script>
+ alert(document.cookie); 
+</script>
+</html>

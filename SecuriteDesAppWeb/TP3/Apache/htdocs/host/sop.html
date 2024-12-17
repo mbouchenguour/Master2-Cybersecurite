@@ -1,0 +1,16 @@
+<html>
+<head>
+<!-- This is allowed --> 
+<iframe src="SameDomainPage.html"> </iframe>
+<script>
+<!--alert('same origin: '+frames[0].document.body);-->
+</script>
+<!-- This is **NOT** allowed --> 
+<iframe src="http://localhost:8000"> </iframe>
+<script>
+<!-- alert('different origin: '+frames[1].contentDocument.body); //throws error
+-->
+</script>
+</head>
+</html>
+

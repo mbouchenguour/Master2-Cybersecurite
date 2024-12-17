@@ -478,3 +478,32 @@
 ::1 - - [16/Dec/2024:21:42:16 +0100] "GET /vulnerable.html HTTP/1.1" 404 196
 ::1 - - [16/Dec/2024:21:42:37 +0100] "GET /domxss6.html HTTP/1.1" 304 -
 ::1 - - [16/Dec/2024:21:43:37 +0100] "-" 408 -
+::1 - - [17/Dec/2024:11:24:38 +0100] "GET /guestbook.php HTTP/1.1" 200 581
+::1 - - [17/Dec/2024:11:24:38 +0100] "GET /scriptgustbook.js HTTP/1.1" 200 535
+::1 - - [17/Dec/2024:11:25:38 +0100] "-" 408 -
+::1 - - [17/Dec/2024:11:48:42 +0100] "GET /guestbook.php HTTP/1.1" 200 581
+::1 - - [17/Dec/2024:11:48:42 +0100] "GET /scriptgustbook.js HTTP/1.1" 304 -
+::1 - - [17/Dec/2024:11:48:43 +0100] "GET /favicon.ico HTTP/1.1" 404 196
+::1 - - [17/Dec/2024:11:49:14 +0100] "GET /guestbook.php HTTP/1.1" 200 581
+::1 - - [17/Dec/2024:11:49:17 +0100] "GET /guestbook.php HTTP/1.1" 200 581
+::1 - - [17/Dec/2024:11:49:39 +0100] "GET /guestbook.php HTTP/1.1" 200 581
+::1 - - [17/Dec/2024:11:49:44 +0100] "GET /guestbook.php HTTP/1.1" 200 581
+::1 - - [17/Dec/2024:11:50:19 +0100] "GET /guestbook.php HTTP/1.1" 200 581
+::1 - - [17/Dec/2024:11:50:42 +0100] "GET /guestbook.php HTTP/1.1" 200 581
+::1 - - [17/Dec/2024:11:50:54 +0100] "GET /guestbook.php HTTP/1.1" 200 297
+::1 - - [17/Dec/2024:11:50:59 +0100] "GET /guestbook.php HTTP/1.1" 200 297
+::1 - - [17/Dec/2024:11:51:59 +0100] "-" 408 -
+::1 - - [17/Dec/2024:11:52:03 +0100] "GET /guestbook.php HTTP/1.1" 200 297
+::1 - - [17/Dec/2024:11:52:38 +0100] "GET /guestbookleavemessage.php?message=qsdqs HTTP/1.1" 200 9
+::1 - - [17/Dec/2024:11:52:41 +0100] "GET /guestbook.php HTTP/1.1" 200 306
+::1 - - [17/Dec/2024:11:53:22 +0100] "GET /guestbook.php HTTP/1.1" 200 306
+::1 - - [17/Dec/2024:11:54:22 +0100] "-" 408 -
+::1 - - [17/Dec/2024:11:54:43 +0100] "GET /guestbook.php HTTP/1.1" 200 306
+::1 - - [17/Dec/2024:11:54:53 +0100] "GET /guestbook.php HTTP/1.1" 200 306
+::1 - - [17/Dec/2024:11:54:53 +0100] "GET /scriptgustbook.js HTTP/1.1" 200 537
+::1 - - [17/Dec/2024:11:54:54 +0100] "GET /guestbookleavemessage.php?message=sdfdsf HTTP/1.1" 200 19
+::1 - - [17/Dec/2024:11:55:26 +0100] "GET /guestbookleavemessage.php?message=%3Cscript%3Ealert(%27xss%27)%3C/script%3E HTTP/1.1" 200 52
+::1 - - [17/Dec/2024:11:55:27 +0100] "GET /guestbook.php HTTP/1.1" 200 349
+::1 - - [17/Dec/2024:11:55:27 +0100] "GET /scriptgustbook.js HTTP/1.1" 304 -
+::1 - - [17/Dec/2024:11:55:36 +0100] "GET /guestbookleavemessage.php?message=qsdqqsd HTTP/1.1" 200 63
+::1 - - [17/Dec/2024:11:55:43 +0100] "-" 408 -

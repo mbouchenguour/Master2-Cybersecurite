@@ -773,3 +773,63 @@ ly determine the server's fully qualified domain name, using fe80::f06f:a488:559
 [Mon Dec 16 21:43:47.890748 2024] [mpm_winnt:notice] [pid 13136:tid 372] AH00422: Parent: Received shutdown signal -- Shutting down the server.
 [Mon Dec 16 21:43:49.903967 2024] [mpm_winnt:notice] [pid 7548:tid 372] AH00364: Child: All worker threads have exited.
 [Mon Dec 16 21:43:49.925414 2024] [mpm_winnt:notice] [pid 13136:tid 372] AH00430: Parent: Child process 7548 exited successfully.
+[Tue Dec 17 11:24:28.977692 2024] [mpm_winnt:notice] [pid 20300:tid 372] AH00455: Apache/2.4.62 (Win64) PHP/8.4.1 configured -- resuming normal operations
+[Tue Dec 17 11:24:28.977692 2024] [mpm_winnt:notice] [pid 20300:tid 372] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Tue Dec 17 11:24:28.977692 2024] [core:notice] [pid 20300:tid 372] AH00094: Command line: 'C:\\Users\\Momol\\Documents\\GitHub\\Master2-Cybersecurite\\SecuriteDesAppWeb\\TP2\\Apache\\bin\\httpd.exe -d C:/Users/Momol/Documents/GitHub/Master2-Cybersecurite/SecuriteDesAppWeb/TP2/Apache'
+[Tue Dec 17 11:24:28.977692 2024] [mpm_winnt:notice] [pid 20300:tid 372] AH00418: Parent: Created child process 19756
+[Tue Dec 17 11:24:29.244167 2024] [mpm_winnt:notice] [pid 19756:tid 368] AH00354: Child: Starting 64 worker threads.
+[Tue Dec 17 11:30:02.353194 2024] [mpm_winnt:crit] [pid 19756:tid 368] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Tue Dec 17 11:30:02.353194 2024] [mpm_winnt:warn] [pid 19756:tid 1352] (OS 995)L’opération d’entrée/sortie a été abandonnée en raison de l’arrêt d’un thread ou à la demande d’une application.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Dec 17 11:30:02.353194 2024] [mpm_winnt:warn] [pid 19756:tid 432] (OS 995)L’opération d’entrée/sortie a été abandonnée en raison de l’arrêt d’un thread ou à la demande d’une application.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Dec 17 11:30:04.373852 2024] [mpm_winnt:notice] [pid 19756:tid 368] AH00364: Child: All worker threads have exited.
+[Tue Dec 17 11:48:38.725320 2024] [core:warn] [pid 16456:tid 372] AH00098: pid file C:/Users/Momol/Documents/GitHub/Master2-Cybersecurite/SecuriteDesAppWeb/TP2/Apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Dec 17 11:48:38.750290 2024] [mpm_winnt:notice] [pid 16456:tid 372] AH00455: Apache/2.4.62 (Win64) PHP/8.4.1 configured -- resuming normal operations
+[Tue Dec 17 11:48:38.750290 2024] [mpm_winnt:notice] [pid 16456:tid 372] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Tue Dec 17 11:48:38.750290 2024] [core:notice] [pid 16456:tid 372] AH00094: Command line: 'C:\\Users\\Momol\\Documents\\GitHub\\Master2-Cybersecurite\\SecuriteDesAppWeb\\TP2\\Apache\\bin\\httpd.exe -d C:/Users/Momol/Documents/GitHub/Master2-Cybersecurite/SecuriteDesAppWeb/TP2/Apache'
+[Tue Dec 17 11:48:38.750584 2024] [mpm_winnt:notice] [pid 16456:tid 372] AH00418: Parent: Created child process 19452
+[Tue Dec 17 11:48:38.996033 2024] [mpm_winnt:notice] [pid 19452:tid 396] AH00354: Child: Starting 64 worker threads.
+[Tue Dec 17 11:48:59.785889 2024] [mpm_winnt:crit] [pid 19452:tid 396] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Tue Dec 17 11:48:59.785889 2024] [mpm_winnt:warn] [pid 19452:tid 1368] (OS 995)L’opération d’entrée/sortie a été abandonnée en raison de l’arrêt d’un thread ou à la demande d’une application.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Dec 17 11:48:59.786780 2024] [mpm_winnt:warn] [pid 19452:tid 1384] (OS 995)L’opération d’entrée/sortie a été abandonnée en raison de l’arrêt d’un thread ou à la demande d’une application.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Dec 17 11:49:04.709122 2024] [core:warn] [pid 9416:tid 384] AH00098: pid file C:/Users/Momol/Documents/GitHub/Master2-Cybersecurite/SecuriteDesAppWeb/TP2/Apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Dec 17 11:49:04.723639 2024] [mpm_winnt:notice] [pid 9416:tid 384] AH00455: Apache/2.4.62 (Win64) PHP/8.4.1 configured -- resuming normal operations
+[Tue Dec 17 11:49:04.723639 2024] [mpm_winnt:notice] [pid 9416:tid 384] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Tue Dec 17 11:49:04.723639 2024] [core:notice] [pid 9416:tid 384] AH00094: Command line: 'C:\\Users\\Momol\\Documents\\GitHub\\Master2-Cybersecurite\\SecuriteDesAppWeb\\TP2\\Apache\\bin\\httpd.exe -d C:/Users/Momol/Documents/GitHub/Master2-Cybersecurite/SecuriteDesAppWeb/TP2/Apache'
+[Tue Dec 17 11:49:04.723639 2024] [mpm_winnt:notice] [pid 9416:tid 384] AH00418: Parent: Created child process 18144
+Apache server interrupted...
+024] [mpm_winnt:notice] [pid 18144:tid 368] AH00354: Child: Starting 64 worker threads.
+[Tue Dec 17 11:49:14.120720 2024] [mpm_winnt:notice] [pid 19452:tid 396] AH00364: Child: All worker threads have exited.
+[Tue Dec 17 11:51:29.632642 2024] [mpm_winnt:notice] [pid 9416:tid 384] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+[Tue Dec 17 11:52:00.263822 2024] [core:warn] [pid 1660:tid 416] AH00098: pid file C:/Users/Momol/Documents/GitHub/Master2-Cybersecurite/SecuriteDesAppWeb/TP2/Apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Dec 17 11:52:00.277602 2024] [mpm_winnt:notice] [pid 1660:tid 416] AH00455: Apache/2.4.62 (Win64) PHP/8.4.1 configured -- resuming normal operations
+[Tue Dec 17 11:52:00.277602 2024] [mpm_winnt:notice] [pid 1660:tid 416] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Tue Dec 17 11:52:00.277602 2024] [core:notice] [pid 1660:tid 416] AH00094: Command line: 'C:\\Users\\Momol\\Documents\\GitHub\\Master2-Cybersecurite\\SecuriteDesAppWeb\\TP2\\Apache\\bin\\httpd.exe -d C:/Users/Momol/Documents/GitHub/Master2-Cybersecurite/SecuriteDesAppWeb/TP2/Apache'
+[Tue Dec 17 11:52:00.277602 2024] [mpm_winnt:notice] [pid 1660:tid 416] AH00418: Parent: Created child process 9120
+Apache server interrupted...
+024] [mpm_winnt:notice] [pid 9120:tid 368] AH00354: Child: Starting 64 worker threads.
+[Tue Dec 17 11:52:01.936730 2024] [mpm_winnt:notice] [pid 18144:tid 368] AH00364: Child: All worker threads have exited.
+[Tue Dec 17 11:54:35.967092 2024] [mpm_winnt:notice] [pid 1660:tid 416] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+[Tue Dec 17 11:54:37.988981 2024] [mpm_winnt:notice] [pid 9120:tid 368] AH00364: Child: All worker threads have exited.
+[Tue Dec 17 11:54:38.018724 2024] [mpm_winnt:notice] [pid 1660:tid 416] AH00430: Parent: Child process 9120 exited successfully.
+[Tue Dec 17 11:54:40.974307 2024] [mpm_winnt:notice] [pid 18216:tid 372] AH00455: Apache/2.4.62 (Win64) PHP/8.4.1 configured -- resuming normal operations
+[Tue Dec 17 11:54:40.974307 2024] [mpm_winnt:notice] [pid 18216:tid 372] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Tue Dec 17 11:54:40.974307 2024] [core:notice] [pid 18216:tid 372] AH00094: Command line: 'C:\\Users\\Momol\\Documents\\GitHub\\Master2-Cybersecurite\\SecuriteDesAppWeb\\TP2\\Apache\\bin\\httpd.exe -d C:/Users/Momol/Documents/GitHub/Master2-Cybersecurite/SecuriteDesAppWeb/TP2/Apache'
+[Tue Dec 17 11:54:40.974307 2024] [mpm_winnt:notice] [pid 18216:tid 372] AH00418: Parent: Created child process 18268
+[Tue Dec 17 11:54:41.205502 2024] [mpm_winnt:notice] [pid 18268:tid 392] AH00354: Child: Starting 64 worker threads.
+[Tue Dec 17 11:56:15.973243 2024] [mpm_winnt:crit] [pid 18268:tid 392] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Tue Dec 17 11:56:15.973243 2024] [mpm_winnt:warn] [pid 18268:tid 636] (OS 995)L’opération d’entrée/sortie a été abandonnée en raison de l’arrêt d’un thread ou à la demande d’une application.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Dec 17 11:56:15.973243 2024] [mpm_winnt:error] [pid 18268:tid 636] (OS 10038)Une opération a été tentée sur autre chose qu’un socket.  : AH00337: Child: Encountered too many AcceptEx faults accepting client connections. Possible causes: dynamic address renewal, or incompatible VPN or firewall software. 
+[Tue Dec 17 11:56:15.973243 2024] [mpm_winnt:notice] [pid 18268:tid 636] (OS 10038)Une opération a été tentée sur autre chose qu’un socket.  : AH00338: winnt_mpm: falling back to 'AcceptFilter none'.
+[Tue Dec 17 11:56:17.987391 2024] [mpm_winnt:notice] [pid 18268:tid 392] AH00364: Child: All worker threads have exited.
