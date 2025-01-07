@@ -801,3 +801,39 @@ pm_winnt:notice] [pid 14888:tid 368] AH00354: Child: Starting 64 worker threads.
 [Tue Dec 17 13:33:41.189758 2024] [mpm_winnt:notice] [pid 4192:tid 384] AH00422: Parent: Received shutdown signal -- Shutting down the server.
 [Tue Dec 17 13:33:43.206263 2024] [mpm_winnt:notice] [pid 14888:tid 368] AH00364: Child: All worker threads have exited.
 [Tue Dec 17 13:33:43.232168 2024] [mpm_winnt:notice] [pid 4192:tid 384] AH00430: Parent: Child process 14888 exited successfully.
+[Tue Jan 07 11:39:50.315088 2025] [mpm_winnt:notice] [pid 6324:tid 372] AH00455: Apache/2.4.62 (Win64) PHP/8.4.1 configured -- resuming normal operations
+[Tue Jan 07 11:39:50.315088 2025] [mpm_winnt:notice] [pid 6324:tid 372] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Tue Jan 07 11:39:50.315088 2025] [core:notice] [pid 6324:tid 372] AH00094: Command line: 'C:\\Users\\Momol\\Documents\\GitHub\\Master2-Cybersecurite\\SecuriteDesAppWeb\\TP3\\Apache\\bin\\httpd.exe -d C:/Users/Momol/Documents/GitHub/Master2-Cybersecurite/SecuriteDesAppWeb/TP3/Apache'
+[Tue Jan 07 11:39:50.319055 2025] [mpm_winnt:notice] [pid 6324:tid 372] AH00418: Parent: Created child process 18568
+Apache server interrupted...
+025] [mpm_winnt:notice] [pid 18568:tid 368] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 07 11:51:11.130639 2025] [mpm_winnt:notice] [pid 6324:tid 372] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jan 07 11:51:13.159396 2025] [mpm_winnt:notice] [pid 18568:tid 368] AH00364: Child: All worker threads have exited.
+[Tue Jan 07 11:51:13.185811 2025] [mpm_winnt:notice] [pid 6324:tid 372] AH00430: Parent: Child process 18568 exited successfully.
+[Tue Jan 07 11:51:48.790206 2025] [mpm_winnt:notice] [pid 24592:tid 372] AH00455: Apache/2.4.62 (Win64) PHP/8.4.1 configured -- resuming normal operations
+[Tue Jan 07 11:51:48.790206 2025] [mpm_winnt:notice] [pid 24592:tid 372] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Tue Jan 07 11:51:48.790206 2025] [core:notice] [pid 24592:tid 372] AH00094: Command line: 'C:\\Users\\Momol\\Documents\\GitHub\\Master2-Cybersecurite\\SecuriteDesAppWeb\\TP3\\Apache\\bin\\httpd.exe -d C:/Users/Momol/Documents/GitHub/Master2-Cybersecurite/SecuriteDesAppWeb/TP3/Apache'
+[Tue Jan 07 11:51:48.790206 2025] [mpm_winnt:notice] [pid 24592:tid 372] AH00418: Parent: Created child process 32332
+Apache server interrupted...
+025] [mpm_winnt:notice] [pid 32332:tid 372] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 07 11:54:08.303252 2025] [mpm_winnt:notice] [pid 24592:tid 372] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jan 07 11:54:10.322177 2025] [mpm_winnt:notice] [pid 32332:tid 372] AH00364: Child: All worker threads have exited.
+[Tue Jan 07 11:54:10.337794 2025] [mpm_winnt:notice] [pid 24592:tid 372] AH00430: Parent: Child process 32332 exited successfully.
+[Tue Jan 07 11:54:12.576384 2025] [mpm_winnt:notice] [pid 13108:tid 376] AH00455: Apache/2.4.62 (Win64) PHP/8.4.1 configured -- resuming normal operations
+[Tue Jan 07 11:54:12.576384 2025] [mpm_winnt:notice] [pid 13108:tid 376] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Tue Jan 07 11:54:12.576384 2025] [core:notice] [pid 13108:tid 376] AH00094: Command line: 'C:\\Users\\Momol\\Documents\\GitHub\\Master2-Cybersecurite\\SecuriteDesAppWeb\\TP3\\Apache\\bin\\httpd.exe -d C:/Users/Momol/Documents/GitHub/Master2-Cybersecurite/SecuriteDesAppWeb/TP3/Apache'
+[Tue Jan 07 11:54:12.581767 2025] [mpm_winnt:notice] [pid 13108:tid 376] AH00418: Parent: Created child process 30300
+Apache server interrupted...
+025] [mpm_winnt:notice] [pid 30300:tid 196] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 07 11:55:39.596254 2025] [mpm_winnt:notice] [pid 13108:tid 376] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jan 07 11:55:41.618524 2025] [mpm_winnt:notice] [pid 30300:tid 196] AH00364: Child: All worker threads have exited.
+[Tue Jan 07 11:55:41.641880 2025] [mpm_winnt:notice] [pid 13108:tid 376] AH00430: Parent: Child process 30300 exited successfully.
+[Tue Jan 07 11:55:53.998637 2025] [mpm_winnt:notice] [pid 18340:tid 404] AH00455: Apache/2.4.62 (Win64) PHP/8.4.1 configured -- resuming normal operations
+[Tue Jan 07 11:55:53.998637 2025] [mpm_winnt:notice] [pid 18340:tid 404] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Tue Jan 07 11:55:53.998637 2025] [core:notice] [pid 18340:tid 404] AH00094: Command line: 'C:\\Users\\Momol\\Documents\\GitHub\\Master2-Cybersecurite\\SecuriteDesAppWeb\\TP3\\Apache\\bin\\httpd.exe -d C:/Users/Momol/Documents/GitHub/Master2-Cybersecurite/SecuriteDesAppWeb/TP3/Apache'
+[Tue Jan 07 11:55:54.003622 2025] [mpm_winnt:notice] [pid 18340:tid 404] AH00418: Parent: Created child process 21028
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 21028:tid 372] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 07 14:00:49.329884 2025] [mpm_winnt:notice] [pid 18340:tid 404] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jan 07 14:00:51.336680 2025] [mpm_winnt:notice] [pid 21028:tid 372] AH00364: Child: All worker threads have exited.
+[Tue Jan 07 14:00:51.367636 2025] [mpm_winnt:notice] [pid 18340:tid 404] AH00430: Parent: Child process 21028 exited successfully.
