@@ -1,0 +1,5 @@
+Items:
+1. Article: Laptop | Quantity: 1 | Price/unit: 1200.00 EUR | Total: 1200.00 EUR
+2. Article: Mouse | Quantity: 2 | Price/unit: 20.00 EUR | Total: 40.00 EUR
+3. Article: Keyboard | Quantity: 1 | Price/unit: 50.00 EUR | Total: 50.00 EUR
+Total Transaction: 1290.00 EUR

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Connexion à la carte</title>
+</head>
+<body>
+    <h1>Connexion à la carte</h1>
+    <p>{{ message }}</p>
+
+    {% if public_key %}
+        <form method="POST">
+            <label for="pin">Entrez le PIN :</label>
+            <input type="password" id="pin" name="pin" required>
+            <button type="submit">Valider</button>
+        </form>
+    {% endif %}
+
+    {% if transactions %}
+        <h3>Transactions décryptées :</h3>
+        <pre>{{ transactions }}</pre>
+    {% endif %}
+
+
+</body>
+</html>
