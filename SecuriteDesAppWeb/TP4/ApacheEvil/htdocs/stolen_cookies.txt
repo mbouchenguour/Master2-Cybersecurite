@@ -1,0 +1,12 @@
+[2025-01-27 19:54:05] CookieService1=1; CookieService2=2; CookieService2_Secure=2; CookieService2_Lax=2; CookieService2_Strict=CookieStrict; CookieService2_None=2
+[2025-01-28 09:13:14] CookieService2_Lax=2; CookieService2_Strict=CookieStrict
+[2025-01-28 09:13:24] CookieService2_Lax=2; CookieService2_Strict=CookieStrict
+[2025-01-28 09:23:17] CookieService2_Lax=2; CookieService2_Strict=CookieStrict; CookieService2=2; CookieService1=1
+[2025-01-28 09:28:33] 
+[2025-01-28 09:28:43] CookieService2=2; CookieService2_Lax=2; CookieService2_Strict=CookieStrict; CookieService1=1
+[2025-01-28 09:28:50] CookieService2=2; CookieService2_Lax=2; CookieService2_Strict=CookieStrict; CookieService1=1
+[2025-01-28 09:29:54] 
+[2025-01-28 09:30:14] 
+[2025-01-28 09:30:34] 
+[2025-01-28 09:33:03] CookieService2=2; CookieService2_Lax=2; CookieService2_Strict=CookieStrict
+[2025-01-28 09:33:27] CookieService2=2; CookieService2_Lax=2; CookieService2_Strict=CookieStrict

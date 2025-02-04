@@ -867,3 +867,48 @@ pm_winnt:notice] [pid 25488:tid 368] AH00354: Child: Starting 64 worker threads.
 [Tue Jan 07 14:00:49.329884 2025] [mpm_winnt:notice] [pid 2368:tid 372] AH00422: Parent: Received shutdown signal -- Shutting down the server.
 [Tue Jan 07 14:00:51.336680 2025] [mpm_winnt:notice] [pid 25488:tid 368] AH00364: Child: All worker threads have exited.
 [Tue Jan 07 14:00:51.361247 2025] [mpm_winnt:notice] [pid 2368:tid 372] AH00430: Parent: Child process 25488 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::f06f:a488:5599:ab0e. Set the 'ServerName' directive globally to suppress this message
+[Sat Jan 25 20:14:01.784700 2025] [mpm_winnt:notice] [pid 29072:tid 384] AH00455: Apache/2.4.62 (Win64) PHP/8.4.1 configured -- resuming normal operations
+[Sat Jan 25 20:14:01.784700 2025] [mpm_winnt:notice] [pid 29072:tid 384] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sat Jan 25 20:14:01.784700 2025] [core:notice] [pid 29072:tid 384] AH00094: Command line: 'C:\\Users\\Momol\\Documents\\GitHub\\Master2-Cybersecurite\\SecuriteDesAppWeb\\TP3\\ApacheEvil\\bin\\httpd.exe -d C:/Users/Momol/Documents/GitHub/Master2-Cybersecurite/SecuriteDesAppWeb/TP3/ApacheEvil'
+[Sat Jan 25 20:14:01.788700 2025] [mpm_winnt:notice] [pid 29072:tid 384] AH00418: Parent: Created child process 17240
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::f06f:a488:5599:ab0e. Set the 'ServerName' directive globally to suppress this message
+Apache server interrupted...
+ reliably determine the server's fully qualified domain name, using fe80::f06f:a488:5599:ab0e. Set the 'ServerName' directive globally to suppress this message
+[Sat Jan 25 20:14:02.104773 2025] [mpm_winnt:notice] [pid 17240:tid 368] AH00354: Child: Starting 64 worker threads.
+[Sat Jan 25 21:19:46.143259 2025] [mpm_winnt:notice] [pid 29072:tid 384] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+Apache server shutdown initiated...
+[Sat Jan 25 21:19:48.160923 2025] [mpm_winnt:notice] [pid 17240:tid 368] AH00364: Child: All worker threads have exited.
+[Sat Jan 25 21:19:48.182188 2025] [mpm_winnt:notice] [pid 29072:tid 384] AH00430: Parent: Child process 17240 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::ecad:198d:3a72:945b. Set the 'ServerName' directive globally to suppress this message
+[Mon Jan 27 20:44:28.931527 2025] [mpm_winnt:notice] [pid 21416:tid 348] AH00455: Apache/2.4.62 (Win64) PHP/8.4.1 configured -- resuming normal operations
+[Mon Jan 27 20:44:28.931527 2025] [mpm_winnt:notice] [pid 21416:tid 348] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Mon Jan 27 20:44:28.931527 2025] [core:notice] [pid 21416:tid 348] AH00094: Command line: 'C:\\Users\\Momol\\Documents\\GitHub\\Master2-Cybersecurite\\SecuriteDesAppWeb\\TP3\\ApacheEvil\\bin\\httpd.exe -d C:/Users/Momol/Documents/GitHub/Master2-Cybersecurite/SecuriteDesAppWeb/TP3/ApacheEvil'
+[Mon Jan 27 20:44:28.935464 2025] [mpm_winnt:notice] [pid 21416:tid 348] AH00418: Parent: Created child process 19636
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::ecad:198d:3a72:945b. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::ecad:198d:3a72:945b. Set the 'ServerName' directive globally to suppress this message
+[Mon Jan 27 20:44:29.413009 2025] [mpm_winnt:notice] [pid 19636:tid 352] AH00354: Child: Starting 64 worker threads.
+[Mon Jan 27 20:51:09.273316 2025] [mpm_winnt:crit] [pid 19636:tid 352] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Mon Jan 27 20:51:09.273316 2025] [mpm_winnt:warn] [pid 19636:tid 728] (OS 995)L’opération d’entrée/sortie a été abandonnée en raison de l’arrêt d’un thread ou à la demande d’une application.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Mon Jan 27 20:51:09.273316 2025] [mpm_winnt:warn] [pid 19636:tid 732] (OS 995)L’opération d’entrée/sortie a été abandonnée en raison de l’arrêt d’un thread ou à la demande d’une application.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Mon Jan 27 20:51:11.291667 2025] [mpm_winnt:notice] [pid 19636:tid 352] AH00364: Child: All worker threads have exited.
+[Tue Jan 28 10:08:02.767660 2025] [core:warn] [pid 7896:tid 356] AH00098: pid file C:/Users/Momol/Documents/GitHub/Master2-Cybersecurite/SecuriteDesAppWeb/TP3/ApacheEvil/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jan 28 10:08:02.804925 2025] [mpm_winnt:notice] [pid 7896:tid 356] AH00455: Apache/2.4.62 (Win64) PHP/8.4.1 configured -- resuming normal operations
+[Tue Jan 28 10:08:02.804925 2025] [mpm_winnt:notice] [pid 7896:tid 356] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Tue Jan 28 10:08:02.804925 2025] [core:notice] [pid 7896:tid 356] AH00094: Command line: 'C:\\Users\\Momol\\Documents\\GitHub\\Master2-Cybersecurite\\SecuriteDesAppWeb\\TP3\\ApacheEvil\\bin\\httpd.exe -d C:/Users/Momol/Documents/GitHub/Master2-Cybersecurite/SecuriteDesAppWeb/TP3/ApacheEvil'
+[Tue Jan 28 10:08:02.818679 2025] [mpm_winnt:notice] [pid 7896:tid 356] AH00418: Parent: Created child process 2800
+[Tue Jan 28 10:08:03.242071 2025] [mpm_winnt:notice] [pid 2800:tid 344] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 28 10:09:51.313157 2025] [mpm_winnt:crit] [pid 2800:tid 344] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Tue Jan 28 10:09:51.313157 2025] [mpm_winnt:warn] [pid 2800:tid 836] (OS 995)L’opération d’entrée/sortie a été abandonnée en raison de l’arrêt d’un thread ou à la demande d’une application.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Jan 28 10:09:51.313157 2025] [mpm_winnt:warn] [pid 2800:tid 696] (OS 995)L’opération d’entrée/sortie a été abandonnée en raison de l’arrêt d’un thread ou à la demande d’une application.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Jan 28 10:09:53.322164 2025] [mpm_winnt:notice] [pid 2800:tid 344] AH00364: Child: All worker threads have exited.
+[Tue Jan 28 10:38:34.425010 2025] [core:warn] [pid 20620:tid 348] AH00098: pid file C:/Users/Momol/Documents/GitHub/Master2-Cybersecurite/SecuriteDesAppWeb/TP3/ApacheEvil/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jan 28 10:38:34.454644 2025] [mpm_winnt:notice] [pid 20620:tid 348] AH00455: Apache/2.4.62 (Win64) PHP/8.4.1 configured -- resuming normal operations
+[Tue Jan 28 10:38:34.454644 2025] [mpm_winnt:notice] [pid 20620:tid 348] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Tue Jan 28 10:38:34.454644 2025] [core:notice] [pid 20620:tid 348] AH00094: Command line: 'C:\\Users\\Momol\\Documents\\GitHub\\Master2-Cybersecurite\\SecuriteDesAppWeb\\TP3\\ApacheEvil\\bin\\httpd.exe -d C:/Users/Momol/Documents/GitHub/Master2-Cybersecurite/SecuriteDesAppWeb/TP3/ApacheEvil'
+[Tue Jan 28 10:38:34.458718 2025] [mpm_winnt:notice] [pid 20620:tid 348] AH00418: Parent: Created child process 21408
+[Tue Jan 28 10:38:34.953706 2025] [mpm_winnt:notice] [pid 21408:tid 360] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 28 11:40:55.620414 2025] [mpm_winnt:crit] [pid 21408:tid 360] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Tue Jan 28 11:40:55.621389 2025] [mpm_winnt:warn] [pid 21408:tid 688] (OS 995)L’opération d’entrée/sortie a été abandonnée en raison de l’arrêt d’un thread ou à la demande d’une application.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Jan 28 11:40:55.621389 2025] [mpm_winnt:warn] [pid 21408:tid 1296] (OS 995)L’opération d’entrée/sortie a été abandonnée en raison de l’arrêt d’un thread ou à la demande d’une application.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Jan 28 11:40:57.623112 2025] [mpm_winnt:notice] [pid 21408:tid 360] AH00364: Child: All worker threads have exited.

