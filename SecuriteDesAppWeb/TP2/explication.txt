@@ -7,25 +7,32 @@ header("Content-Security-Policy: default-src 'self'");
 
 Question 2 :
 htmlcontext :
-http://localhost/xssme.php?htmlcontext=<script>alert('HTML XSS')</script>
+http://localhost:8080/xssme.php?htmlcontext=<script>alert('HTML XSS')</script>
+http://localhost:8080/protectedxssme.php?htmlcontext=<script>alert('HTML XSS')</script>
 
 attributecontext1 :
 attributecontext1='' onerror=alert('attributecontext1 xss')
-http://localhost/xssme.php?attributecontext1='' onerror="alert('attributecontext1 xss')"
+http://localhost:8080/xssme.php?attributecontext1='' onerror="alert('attributecontext1 xss')"
+http://localhost:8080/protectedxssme.php?attributecontext1='' onerror="alert('attributecontext1 xss')"
+
 
 attributecontext2 :
 attributecontext2=" onerror="alert('attributecontext2 Double Quote XSS')
-http://localhost/xssme.php?attributecontext2=" onerror="alert('attributecontext2 Double Quote XSS')
+http://localhost:8080/xssme.php?attributecontext2=" onerror="alert('attributecontext2 Double Quote XSS')
+http://localhost:8080/protectedxssme.php?attributecontext2=" onerror="alert('attributecontext2 Double Quote XSS')
 
 
 attributecontext3=' onerror="alert('attributecontext3 Single Quote XSS')"'
-http://localhost/xssme.php?attributecontext3=' onerror="alert('attributecontext3 Single Quote XSS')"'
+http://localhost:8080/xssme.php?attributecontext3=' onerror="alert('attributecontext3 Single Quote XSS')"'
+http://localhost:8080/protectedxssme.php?attributecontext3=' onerror="alert('attributecontext3 Single Quote XSS')"'
 
 scriptcontext=alert('Script context XSS')
-http://localhost/xssme.php?scriptcontext=alert('Script context XSS')
+http://localhost:8080/xssme.php?scriptcontext=alert('Script context XSS')
+http://localhost:8080/protectedxssme.php?scriptcontext=alert('Script context XSS')
 
 attributecontextonerror="alert('attributecontextonerror XSS')
-http://localhost/xssme.php?attributecontextonerror="alert('attributecontextonerror XSS')"
+http://localhost:8080/xssme.php?attributecontextonerror="alert('attributecontextonerror XSS')"
+http://localhost:8080/protectedxssme.php?attributecontextonerror="alert('attributecontextonerror XSS')"
 
 
 Protectedxss :
@@ -34,17 +41,17 @@ Protectedxss :
 htmlcontext :
 echo htmlspecialchars($_GET['htmlcontext']);
 
-http://localhost/protectedxssme.php?attributecontext1=' onerror='alert("attributecontext1xss")''
+http://localhost:8080/protectedxssme.php?attributecontext1=' onerror='alert("attributecontext1xss")''
 ne marche plus
 
 attributecontext1 :
 <?php echo htmlspecialchars($_GET['attributecontext1'])?>
 
 L'ancienne attaque ne marche pas :
-http://localhost/protectedxssme.php?attributecontext1='' onerror="alert('attributecontext1 xss')"
+http://localhost:8080/protectedxssme.php?attributecontext1='' onerror="alert('attributecontext1 xss')"
 
 Contournenment avec :
-http://localhost/protectedxssme.php?attributecontext1=1 onerror=alert("XSSAvecHtmlspecialchars")
+http://localhost:8080/protectedxssme.php?attributecontext1=1 onerror=alert("XSSAvecHtmlspecialchars")
 
 htmlspecialchars ne marche pas car 
 
@@ -53,7 +60,7 @@ En gros faire <?php echo htmlspecialchars()?> pour tout
 
 Question 4 :
 domxss4
-http://localhost/domxss4.html?x=<script>alert('xss')</script>
+http://localhost:8080/domxss4.html?x=<script>alert('xss')</script>
 
 domxss5
 balise a ne lance pas scripte donc on passe par img onerror :
@@ -65,3 +72,8 @@ domxss6
 
 Pour tous les 3, utiliser csp ou changer l'encodage des char spéciales
 
+
+
+
+
+http://localhost:8080/protectedxssme.php?attributecontextonerror=alert%28%22XSSAvecHtmlspecialchars%22%29

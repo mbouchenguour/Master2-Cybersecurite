@@ -1,0 +1,252 @@
+[
+    {
+        "CVE_ID": "CVE-1999-0001",
+        "Description": "ip_input.c in BSD-derived TCP/IP implementations allows remote attackers to cause a denial of service (crash or hang) via crafted packets.",
+        "Vulgarisation": "Cette vulnérabilité permet à un attaquant distant de provoquer un dysfonctionnement (plantage ou blocage) d'un système en envoyant des paquets malveillants. Pour se protéger, il est recommandé de mettre à jour les systèmes avec les derniers correctifs de sécurité."
+    },
+    {
+        "CVE_ID": "CVE-1999-0002",
+        "Description": "Buffer overflow in NFS mountd gives root access to remote attackers, mostly in Linux systems.",
+        "Vulgarisation": "Cette vulnérabilité permet à un attaquant distant d'obtenir des privilèges root sur un système Linux en exploitant un dépassement de tampon dans le service NFS mountd. Pour se protéger, il est recommandé de mettre à jour le système avec les derniers correctifs de sécurité et de limiter l'accès au service NFS mountd."
+    },
+    {
+        "CVE_ID": "CVE-1999-0003",
+        "Description": "Execute commands as root via buffer overflow in Tooltalk database server (rpc.ttdbserverd).",
+        "Vulgarisation": "Cette vulnérabilité permet à un attaquant d'exécuter des commandes avec des privilèges root en exploitant un dépassement de tampon dans le serveur de base de données Tooltalk. Pour se protéger, il est recommandé de mettre à jour le système avec les derniers correctifs de sécurité et de limiter l'accès au serveur Tooltalk."
+    },
+    {
+        "CVE_ID": "CVE-1999-0004",
+        "Description": "MIME buffer overflow in email clients, e.g. Solaris mailtool and Outlook.",
+        "Vulgarisation": "Cette vulnérabilité permet à un attaquant d'envoyer un email malveillant contenant un dépassement de tampon MIME, ce qui peut provoquer un dysfonctionnement du client de messagerie. Pour se protéger, il est recommandé de mettre à jour le client de messagerie avec les derniers correctifs de sécurité et d'être prudent lors de l'ouverture d'emails non sollicités."
+    },
+    {
+        "CVE_ID": "CVE-1999-0005",
+        "Description": "Arbitrary command execution via IMAP buffer overflow in authenticate command.",
+        "Vulgarisation": "Cette vulnérabilité permet à un attaquant d'exécuter des commandes arbitraires en exploitant un dépassement de tampon dans la commande d'authentification IMAP. Pour se protéger, il est recommandé de mettre à jour le système avec les derniers correctifs de sécurité et de limiter l'accès au service IMAP."
+    },
+    {
+        "CVE_ID": "CVE-1999-0006",
+        "Description": "Buffer overflow in POP servers based on BSD/Qualcomm's qpopper allows remote attackers to gain root access using a long PASS command.",
+        "Vulgarisation": "Cette vulnérabilité permet à un attaquant distant d'obtenir des privilèges root sur un serveur POP en exploitant un dépassement de tampon dans la commande PASS. Pour se protéger, il est recommandé de mettre à jour le système avec les derniers correctifs de sécurité et de limiter l'accès au serveur POP."
+    },
+    {
+        "CVE_ID": "CVE-1999-0007",
+        "Description": "Information from SSL-encrypted sessions via PKCS #1.",
+        "Vulgarisation": "Cette vulnérabilité permet à un attaquant d'obtenir des informations à partir de sessions SSL chiffrées en exploitant une faiblesse dans le standard PKCS #1. Pour se protéger, il est recommandé de mettre à jour le système avec les derniers correctifs de sécurité et de utiliser des bibliothèques de chiffrement mises à jour."
+    },
+    {
+        "CVE_ID": "CVE-1999-0008",
+        "Description": "Buffer overflow in NIS+, in Sun's rpc.nisd program.",
+        "Vulgarisation": "Cette vulnérabilité permet à un attaquant d'exécuter des commandes avec des privilèges root en exploitant un dépassement de tampon dans le programme rpc.nisd de Sun. Pour se protéger, il est recommandé de mettre à jour le système avec les derniers correctifs de sécurité et de limiter l'accès au service NIS+."
+    },
+    {
+        "CVE_ID": "CVE-1999-0009",
+        "Description": "Inverse query buffer overflow in BIND 4.9 and BIND 8 Releases.",
+        "Vulgarisation": "Cette vulnérabilité permet à un attaquant d'exécuter des commandes avec des privilèges root en exploitant un dépassement de tampon dans les versions 4.9 et 8 de BIND. Pour se protéger, il est recommandé de mettre à jour le système avec les derniers correctifs de sécurité et de limiter l'accès au service DNS."
+    },
+    {
+        "CVE_ID": "CVE-1999-0010",
+        "Description": "Denial of Service vulnerability in BIND 8 Releases via maliciously formatted DNS messages.",
+        "Vulgarisation": "Cette vulnérabilité permet à un attaquant de provoquer un dysfonctionnement du service DNS en envoyant des messages DNS malveillants. Pour se protéger, il est recommandé de mettre à jour le système avec les derniers correctifs de sécurité et de limiter l'accès au service DNS."
+    },
+    {
+        "CVE_ID": "CVE-1999-0011",
+        "Description": "Denial of Service vulnerabilities in BIND 4.9 and BIND 8 Releases via CNAME record and zone transfer.",
+        "Vulgarisation": "Cette vulnérabilité permet à un attaquant de provoquer un dysfonctionnement du service DNS en exploitant une faiblesse dans les enregistrements CNAME et les transferts de zone. Pour se protéger, il est recommandé de mettre à jour le système avec les derniers correctifs de sécurité et de limiter l'accès au service DNS."
+    },
+    {
+        "CVE_ID": "CVE-1999-0012",
+        "Description": "Some web servers under Microsoft Windows allow remote attackers to bypass access restrictions for files with long file names.",
+        "Vulgarisation": "Cette vulnérabilité permet à un attaquant distant de contourner les restrictions d'accès pour les fichiers avec des noms de fichiers longs sur certains serveurs web sous Microsoft Windows. Pour se protéger, il est recommandé de mettre à jour le système avec les derniers correctifs de sécurité et de limiter l'accès au serveur web."
+    },
+    {
+        "CVE_ID": "CVE-1999-0013",
+        "Description": "Stolen credentials from SSH clients via ssh-agent program, allowing other local users to access remote accounts belonging to the ssh-agent user.",
+        "Vulgarisation": "Cette vulnérabilité permet à un attaquant de voler des informations d'authentification à partir d'un client SSH en exploitant une faiblesse dans le programme ssh-agent. Pour se protéger, il est recommandé de mettre à jour le système avec les derniers correctifs de sécurité et de limiter l'accès au service SSH."
+    },
+    {
+        "CVE_ID": "CVE-1999-0014",
+        "Description": "Unauthorized privileged access or denial of service via dtappgather program in CDE.",
+        "Vulgarisation": "Cette vulnérabilité permet à un attaquant d'obtenir des privilèges root non autorisés ou de provoquer un dysfonctionnement du système en exploitant une faiblesse dans le programme dtappgather de CDE. Pour se protéger, il est recommandé de mettre à jour le système avec les derniers correctifs de sécurité et de limiter l'accès au programme dtappgather."
+    },
+    {
+        "CVE_ID": "CVE-1999-0015",
+        "Description": "Teardrop IP denial of service.",
+        "Vulgarisation": "Cette vulnérabilité permet à un attaquant de provoquer un dysfonctionnement du système en envoyant des paquets IP malveillants. Pour se protéger, il est recommandé de mettre à jour le système avec les derniers correctifs de sécurité et de limiter l'accès au réseau."
+    },
+    {
+        "CVE_ID": "CVE-1999-0016",
+        "Description": "Land IP denial of service.",
+        "Vulgarisation": "Cette vulnérabilité permet à un attaquant de provoquer un dysfonctionnement du système en envoyant des paquets IP malveillants. Pour se protéger, il est recommandé de mettre à jour le système avec les derniers correctifs de sécurité et de limiter l'accès au réseau."
+    },
+    {
+        "CVE_ID": "CVE-1999-0017",
+        "Description": "FTP servers can allow an attacker to connect to arbitrary ports on machines other than the FTP client, aka FTP bounce.",
+        "Vulgarisation": "Cette vulnérabilité permet à un attaquant de se connecter à des ports arbitraires sur des machines autres que le client FTP, également connu sous le nom de « FTP bounce ». Pour se protéger, il est recommandé de mettre à jour le système avec les derniers correctifs de sécurité et de limiter l'accès au serveur FTP."
+    },
+    {
+        "CVE_ID": "CVE-1999-0018",
+        "Description": "Buffer overflow in statd allows root privileges.",
+        "Vulgarisation": "Cette vulnérabilité permet à un attaquant d'obtenir des privilèges root en exploitant un dépassement de tampon dans le programme statd. Pour se protéger, il est recommandé de mettre à jour le système avec les derniers correctifs de sécurité et de limiter l'accès au programme statd."
+    },
+    {
+        "CVE_ID": "CVE-1999-0019",
+        "Description": "Delete or create a file via rpc.statd, due to invalid information.",
+        "Vulgarisation": "Cette vulnérabilité permet à un attaquant de supprimer ou de créer un fichier via le programme rpc.statd en raison d'informations invalides. Pour se protéger, il est recommandé de mettre à jour le système avec les derniers correctifs de sécurité et de limiter l'accès au programme rpc.statd."
+    },
+    {
+        "CVE_ID": "CVE-1999-0020",
+        "Description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: CVE-1999-0032.  Reason: This candidate is a duplicate of CVE-1999-0032.  Notes: All CVE users should reference CVE-1999-0032 instead of this candidate.  All references and descriptions in this candidate have been removed to prevent accidental usage",
+        "Vulgarisation": "Cette vulnérabilité est un doublon de CVE-1999-0032. Il est recommandé de consulter CVE-1999-0032 pour obtenir plus d'informations."
+    },
+    {
+        "CVE_ID": "CVE-1999-0021",
+        "Description": "Arbitrary command execution via buffer overflow in Count.cgi (wwwcount) cgi-bin program.",
+        "Vulgarisation": "Cette vulnérabilité permet à un attaquant d'exécuter des commandes arbitraires en exploitant un dépassement de tampon dans le programme Count.cgi. Pour se protéger, il est recommandé de mettre à jour le système avec les derniers correctifs de sécurité et de limiter l'accès au programme Count.cgi."
+    },
+    {
+        "CVE_ID": "CVE-1999-0022",
+        "Description": "Local user gains root privileges via buffer overflow in rdist, via expstr() function.",
+        "Vulgarisation": "Cette vulnérabilité permet à un utilisateur local d'obtenir des privilèges root en exploitant un dépassement de tampon dans le programme rdist, via la fonction expstr(). Pour se protéger, il est recommandé de mettre à jour le système avec les derniers correctifs de sécurité et de limiter l'accès au programme rdist."
+    },
+    {
+        "CVE_ID": "CVE-1999-0023",
+        "Description": "Local user gains root privileges via buffer overflow in rdist, via lookup() function.",
+        "Vulgarisation": "Cette vulnérabilité permet à un utilisateur local d'obtenir des privilèges root en exploitant un dépassement de tampon dans le programme rdist, via la fonction lookup(). Pour se protéger, il est recommandé de mettre à jour le système avec les derniers correctifs de sécurité et de limiter l'accès au programme rdist."
+    },
+    {
+        "CVE_ID": "CVE-1999-0024",
+        "Description": "DNS cache poisoning via BIND, by predictable query IDs.",
+        "Vulgarisation": "Cette vulnérabilité permet à un attaquant de contaminer le cache DNS en exploitant des ID de requête prévisibles dans le service BIND. Pour se protéger, il est recommandé de mettre à jour le système avec les derniers correctifs de sécurité et de limiter l'accès au service DNS."
+    },
+    {
+        "CVE_ID": "CVE-1999-0025",
+        "Description": "root privileges via buffer overflow in df command on SGI IRIX systems.",
+        "Vulgarisation": "Cette vulnérabilité permet à un attaquant d'obtenir des privilèges root en exploitant un dépassement de tampon dans la commande df sur les systèmes SGI IRIX. Pour se protéger, il est recommandé de mettre à jour le système avec les derniers correctifs de sécurité et de limiter l'accès à la commande df."
+    },
+    {
+        "CVE_ID": "CVE-1999-0026",
+        "Description": "root privileges via buffer overflow in pset command on SGI IRIX systems.",
+        "Vulgarisation": "Cette vulnérabilité permet à un attaquant d'obtenir des privilèges root en exploitant un dépassement de tampon dans la commande pset sur les systèmes SGI IRIX. Pour se protéger, il est recommandé de mettre à jour le système avec les derniers correctifs de sécurité et de limiter l'accès à la commande pset."
+    },
+    {
+        "CVE_ID": "CVE-1999-0027",
+        "Description": "root privileges via buffer overflow in eject command on SGI IRIX systems.",
+        "Vulgarisation": "Cette vulnérabilité permet à un attaquant d'obtenir des privilèges root en exploitant un dépassement de tampon dans la commande eject sur les systèmes SGI IRIX. Pour se protéger, il est recommandé de mettre à jour le système avec les derniers correctifs de sécurité et de limiter l'accès à la commande eject."
+    },
+    {
+        "CVE_ID": "CVE-1999-0028",
+        "Description": "root privileges via buffer overflow in login/scheme command on SGI IRIX systems.",
+        "Vulgarisation": "Cette vulnérabilité permet à un attaquant d'obtenir des privilèges root en exploitant un dépassement de tampon dans la commande login/scheme sur les systèmes SGI IRIX. Pour se protéger, il est recommandé de mettre à jour le système avec les derniers correctifs de sécurité et de limiter l'accès à la commande login/scheme."
+    },
+    {
+        "CVE_ID": "CVE-1999-0029",
+        "Description": "root privileges via buffer overflow in ordist command on SGI IRIX systems.",
+        "Vulgarisation": "Cette vulnérabilité permet à un attaquant d'obtenir des privilèges root en exploitant un dépassement de tampon dans la commande ordist sur les systèmes SGI IRIX. Pour se protéger, il est recommandé de mettre à jour le système avec les derniers correctifs de sécurité et de limiter l'accès à la commande ordist."
+    },
+    {
+        "CVE_ID": "CVE-1999-0030",
+        "Description": "root privileges via buffer overflow in xlock command on SGI IRIX systems.",
+        "Vulgarisation": "Cette vulnérabilité permet à un attaquant d'obtenir des privilèges root en exploitant un dépassement de tampon dans la commande xlock sur les systèmes SGI IRIX. Pour se protéger, il est recommandé de mettre à jour le système avec les derniers correctifs de sécurité et de limiter l'accès à la commande xlock."
+    },
+    {
+        "CVE_ID": "CVE-1999-0031",
+        "Description": "JavaScript in Internet Explorer 3.x and 4.x, and Netscape 2.x, 3.x and 4.x, allows remote attackers to monitor a user's web activities, aka the Bell Labs vulnerability.",
+        "Vulgarisation": "Cette vulnérabilité permet à un attaquant distant de surveiller les activités web d'un utilisateur en exploitant une faiblesse dans le JavaScript des navigateurs Internet Explorer et Netscape. Pour se protéger, il est recommandé de mettre à jour le navigateur avec les derniers correctifs de sécurité et de limiter l'exécution de scripts JavaScript."
+    },
+    {
+        "CVE_ID": "CVE-1999-0032",
+        "Description": "Buffer overflow in lpr, as used in BSD-based systems including Linux, allows local users to execute arbitrary code as root via a long -C (classification) command line option.",
+        "Vulgarisation": "Cette vulnérabilité permet à un utilisateur local d'exécuter des commandes arbitraires avec des privilèges root en exploitant un dépassement de tampon dans la commande lpr, via l'option de ligne de commande -C. Pour se protéger, il est recommandé de mettre à jour le système avec les derniers correctifs de sécurité et de limiter l'accès à la commande lpr."
+    },
+    {
+        "CVE_ID": "CVE-1999-0033",
+        "Description": "Command execution in Sun systems via buffer overflow in the at program.",
+        "Vulgarisation": "Cette vulnérabilité permet à un attaquant d'exécuter des commandes arbitraires en exploitant un dépassement de tampon dans le programme at sur les systèmes Sun. Pour se protéger, il est recommandé de mettre à jour le système avec les derniers correctifs de sécurité et de limiter l'accès au programme at."
+    },
+    {
+        "CVE_ID": "CVE-1999-0034",
+        "Description": "Buffer overflow in suidperl (sperl), Perl 4.x and 5.x.",
+        "Vulgarisation": "Cette vulnérabilité permet à un attaquant d'exécuter des commandes arbitraires en exploitant un dépassement de tampon dans le programme suidperl (sperl) des versions 4.x et 5.x de Perl. Pour se protéger, il est recommandé de mettre à jour le système avec les derniers correctifs de sécurité et de limiter l'accès au programme suidperl."
+    },
+    {
+        "CVE_ID": "CVE-1999-0035",
+        "Description": "Race condition in signal handling routine in ftpd, allowing read/write arbitrary files.",
+        "Vulgarisation": "Cette vulnérabilité permet à un attaquant d'accéder à des fichiers arbitraires en lecture et en écriture en exploitant une condition de course dans la routine de gestion des signaux du programme ftpd. Pour se protéger, il est recommandé de mettre à jour le système avec les derniers correctifs de sécurité et de limiter l'accès au programme ftpd."
+    },
+    {
+        "CVE_ID": "CVE-1999-0036",
+        "Description": "IRIX login program with a nonzero LOCKOUT parameter allows creation or damage to files.",
+        "Vulgarisation": "Cette vulnérabilité permet à un attaquant de créer ou de modifier des fichiers en exploitant une faiblesse dans le programme de connexion IRIX avec un paramètre LOCKOUT non nul. Pour se protéger, il est recommandé de mettre à jour le système avec les derniers correctifs de sécurité et de limiter l'accès au programme de connexion IRIX."
+    },
+    {
+        "CVE_ID": "CVE-1999-0037",
+        "Description": "Arbitrary command execution via metamail package using message headers, when user processes attacker's message using metamail.",
+        "Vulgarisation": "Cette vulnérabilité permet à un attaquant d'exécuter des commandes arbitraires en exploitant un paquet metamail qui utilise des en-têtes de message, lorsque l'utilisateur traite le message de l'attaquant avec metamail. Pour se protéger, il est recommandé de mettre à jour le système avec les derniers correctifs de sécurité et de limiter l'accès au paquet metamail."
+    },
+    {
+        "CVE_ID": "CVE-1999-0038",
+        "Description": "Buffer overflow in xlock program allows local users to execute commands as root.",
+        "Vulgarisation": "Cette vulnérabilité permet à un utilisateur local d'exécuter des commandes avec des privilèges root en exploitant un dépassement de tampon dans le programme xlock. Pour se protéger, il est recommandé de mettre à jour le système avec les derniers correctifs de sécurité et de limiter l'accès au programme xlock."
+    },
+    {
+        "CVE_ID": "CVE-1999-0039",
+        "Description": "webdist CGI program (webdist.cgi) in SGI IRIX allows remote attackers to execute arbitrary commands via shell metacharacters in the distloc parameter.",
+        "Vulgarisation": "Cette vulnérabilité permet à un attaquant distant d'exécuter des commandes arbitraires en exploitant des méta-caractères de shell dans le paramètre distloc du programme webdist CGI (webdist.cgi) sur les systèmes SGI IRIX. Pour se protéger, il est recommandé de mettre à jour le système avec les derniers correctifs de sécurité et de limiter l'accès au programme webdist CGI."
+    },
+    {
+        "CVE_ID": "CVE-1999-0040",
+        "Description": "Buffer overflow in Xt library of X Windowing System allows local users to execute commands with root privileges.",
+        "Vulgarisation": "Cette vulnérabilité permet à un utilisateur local d'exécuter des commandes avec des privilèges root en exploitant un dépassement de tampon dans la bibliothèque Xt du système X Windowing. Pour se protéger, il est recommandé de mettre à jour le système avec les derniers correctifs de sécurité et de limiter l'accès à la bibliothèque Xt."
+    },
+    {
+        "CVE_ID": "CVE-1999-0041",
+        "Description": "Buffer overflow in NLS (Natural Language Service).",
+        "Vulgarisation": "Cette vulnérabilité permet à un attaquant d'exécuter des commandes arbitraires en exploitant un dépassement de tampon dans le service NLS (Natural Language Service). Pour se protéger, il est recommandé de mettre à jour le système avec les derniers correctifs de sécurité et de limiter l'accès au service NLS."
+    },
+    {
+        "CVE_ID": "CVE-1999-0042",
+        "Description": "Buffer overflow in University of Washington's implementation of IMAP and POP servers.",
+        "Vulgarisation": "Cette vulnérabilité permet à un attaquant d'exécuter des commandes arbitraires en exploitant un dépassement de tampon dans l'implémentation des serveurs IMAP et POP de l'Université de Washington. Pour se protéger, il est recommandé de mettre à jour le système avec les derniers correctifs de sécurité et de limiter l'accès aux serveurs IMAP et POP."
+    },
+    {
+        "CVE_ID": "CVE-1999-0043",
+        "Description": "Command execution via shell metachars in INN daemon (innd) 1.5 using \"newgroup\" and \"rmgroup\" control messages, and others.",
+        "Vulgarisation": "Cette vulnérabilité permet à un attaquant d'exécuter des commandes arbitraires en exploitant des méta-caractères de shell dans le démon INN (innd) 1.5 en utilisant les messages de contrôle « newgroup » et « rmgroup », ainsi que d'autres. Pour se protéger, il est recommandé de mettre à jour le système avec les derniers correctifs de sécurité et de limiter l'accès au démon INN."
+    },
+    {
+        "CVE_ID": "CVE-1999-0044",
+        "Description": "fsdump command in IRIX allows local users to obtain root access by modifying sensitive files.",
+        "Vulgarisation": "Cette vulnérabilité permet à un utilisateur local d'obtenir des privilèges root en modifiant des fichiers sensibles en exploitant une faiblesse dans la commande fsdump sur les systèmes IRIX. Pour se protéger, il est recommandé de mettre à jour le système avec les derniers correctifs de sécurité et de limiter l'accès à la commande fsdump."
+    },
+    {
+        "CVE_ID": "CVE-1999-0045",
+        "Description": "List of arbitrary files on Web host via nph-test-cgi script.",
+        "Vulgarisation": "Cette vulnérabilité permet à un attaquant de lister des fichiers arbitraires sur un hôte web en exploitant un script nph-test-cgi. Pour se protéger, il est recommandé de mettre à jour le système avec les derniers correctifs de sécurité et de limiter l'accès au script nph-test-cgi."
+    },
+    {
+        "CVE_ID": "CVE-1999-0046",
+        "Description": "Buffer overflow of rlogin program using TERM environmental variable.",
+        "Vulgarisation": "Cette vulnérabilité permet à un attaquant d'exécuter des commandes arbitraires en exploitant un dépassement de tampon dans le programme rlogin en utilisant la variable d'environnement TERM. Pour se protéger, il est recommandé de mettre à jour le système avec les derniers correctifs de sécurité et de limiter l'accès au programme rlogin."
+    },
+    {
+        "CVE_ID": "CVE-1999-0047",
+        "Description": "MIME conversion buffer overflow in sendmail versions 8.8.3 and 8.8.4.",
+        "Vulgarisation": "Cette vulnérabilité permet à un attaquant d'exécuter des commandes arbitraires en exploitant un dépassement de tampon dans la conversion MIME des versions 8.8.3 et 8.8.4 de sendmail. Pour se protéger, il est recommandé de mettre à jour le système avec les derniers correctifs de sécurité et de limiter l'accès au service sendmail."
+    },
+    {
+        "CVE_ID": "CVE-1999-0048",
+        "Description": "Talkd, when given corrupt DNS information, can be used to execute arbitrary commands with root privileges.",
+        "Vulgarisation": "Cette vulnérabilité permet à un attaquant d'exécuter des commandes arbitraires avec des privilèges root en fournissant des informations DNS corruptes au service talkd. Pour se protéger, il est recommandé de mettre à jour le système avec les derniers correctifs de sécurité et de limiter l'accès au service talkd."
+    },
+    {
+        "CVE_ID": "CVE-1999-0049",
+        "Description": "Csetup under IRIX allows arbitrary file creation or overwriting.",
+        "Vulgarisation": "Cette vulnérabilité permet à un attaquant de créer ou de modifier des fichiers arbitraires en exploitant une faiblesse dans le programme csetup sur les systèmes IRIX. Pour se protéger, il est recommandé de mettre à jour le système avec les derniers correctifs de sécurité et de limiter l'accès au programme csetup."
+    },
+    {
+        "CVE_ID": "CVE-1999-0050",
+        "Description": "Buffer overflow in HP-UX newgrp program.",
+        "Vulgarisation": "Cette vulnérabilité permet à un attaquant d'exécuter des commandes arbitraires en exploitant un dépassement de tampon dans le programme newgrp sur les systèmes HP-UX. Pour se protéger, il est recommandé de mettre à jour le système avec les derniers correctifs de sécurité et de limiter l'accès au programme newgrp."
+    }
+]
