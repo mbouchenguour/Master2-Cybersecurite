@@ -1,0 +1,11 @@
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Docker/Dockerfile
+    ports:
+      - "80:80"
+    volumes:
+      - .:/var/www/html
+    command: /bin/sh -c "composer install --no-interaction --no-ansi --prefer-dist && apache2-foreground"
+
