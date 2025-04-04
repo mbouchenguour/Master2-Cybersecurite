@@ -837,3 +837,32 @@ pm_winnt:notice] [pid 21028:tid 372] AH00354: Child: Starting 64 worker threads.
 [Tue Jan 07 14:00:49.329884 2025] [mpm_winnt:notice] [pid 18340:tid 404] AH00422: Parent: Received shutdown signal -- Shutting down the server.
 [Tue Jan 07 14:00:51.336680 2025] [mpm_winnt:notice] [pid 21028:tid 372] AH00364: Child: All worker threads have exited.
 [Tue Jan 07 14:00:51.367636 2025] [mpm_winnt:notice] [pid 18340:tid 404] AH00430: Parent: Child process 21028 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::f06f:a488:5599:ab0e. Set the 'ServerName' directive globally to suppress this message
+[Sat Jan 25 20:14:18.850276 2025] [mpm_winnt:notice] [pid 27980:tid 372] AH00455: Apache/2.4.62 (Win64) PHP/8.4.1 configured -- resuming normal operations
+[Sat Jan 25 20:14:18.850276 2025] [mpm_winnt:notice] [pid 27980:tid 372] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sat Jan 25 20:14:18.850276 2025] [core:notice] [pid 27980:tid 372] AH00094: Command line: 'C:\\Users\\Momol\\Documents\\GitHub\\Master2-Cybersecurite\\SecuriteDesAppWeb\\TP3\\Apache\\bin\\httpd.exe -d C:/Users/Momol/Documents/GitHub/Master2-Cybersecurite/SecuriteDesAppWeb/TP3/Apache'
+[Sat Jan 25 20:14:18.854277 2025] [mpm_winnt:notice] [pid 27980:tid 372] AH00418: Parent: Created child process 27748
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::f06f:a488:5599:ab0e. Set the 'ServerName' directive globally to suppress this message
+Apache server shutdown initiated...
+ly determine the server's fully qualified domain name, using fe80::f06f:a488:5599:ab0e. Set the 'ServerName' directive globally to suppress this message
+[Sat Jan 25 20:14:19.208299 2025] [mpm_winnt:notice] [pid 27748:tid 368] AH00354: Child: Starting 64 worker threads.
+[Sat Jan 25 21:19:47.670064 2025] [mpm_winnt:notice] [pid 27980:tid 372] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Jan 25 21:19:49.678894 2025] [mpm_winnt:notice] [pid 27748:tid 368] AH00364: Child: All worker threads have exited.
+[Sat Jan 25 21:19:49.699921 2025] [mpm_winnt:notice] [pid 27980:tid 372] AH00430: Parent: Child process 27748 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::f06f:a488:5599:ab0e. Set the 'ServerName' directive globally to suppress this message
+[Sat Jan 25 21:22:59.053145 2025] [mpm_winnt:notice] [pid 28204:tid 424] AH00455: Apache/2.4.62 (Win64) PHP/8.4.1 configured -- resuming normal operations
+[Sat Jan 25 21:22:59.053145 2025] [mpm_winnt:notice] [pid 28204:tid 424] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sat Jan 25 21:22:59.053145 2025] [core:notice] [pid 28204:tid 424] AH00094: Command line: 'C:\\Users\\Momol\\Documents\\GitHub\\Master2-Cybersecurite\\SecuriteDesAppWeb\\TP4\\bin\\httpd.exe -d C:/Users/Momol/Documents/GitHub/Master2-Cybersecurite/SecuriteDesAppWeb/TP4'
+[Sat Jan 25 21:22:59.056151 2025] [mpm_winnt:notice] [pid 28204:tid 424] AH00418: Parent: Created child process 29800
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::f06f:a488:5599:ab0e. Set the 'ServerName' directive globally to suppress this message
+Apache server interrupted...
+ reliably determine the server's fully qualified domain name, using fe80::f06f:a488:5599:ab0e. Set the 'ServerName' directive globally to suppress this message
+[Sat Jan 25 21:22:59.416382 2025] [mpm_winnt:notice] [pid 29800:tid 400] AH00354: Child: Starting 64 worker threads.
+[Sat Jan 25 21:23:19.656934 2025] [php:error] [pid 29800:tid 1312] [client ::1:64288] script 'C:/Users/Momol/Documents/GitHub/Master2-Cybersecurite/SecuriteDesAppWeb/TP3/Apache/htdocs/service1.php' not found or unable to stat
+[Sat Jan 25 21:23:51.834596 2025] [mpm_winnt:notice] [pid 28204:tid 424] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+[Sat Jan 25 21:24:21.714737 2025] [mpm_winnt:notice] [pid 29800:tid 400] AH00364: Child: All worker threads have exited.

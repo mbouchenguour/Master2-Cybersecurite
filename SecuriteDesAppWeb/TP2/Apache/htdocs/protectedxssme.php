@@ -9,26 +9,26 @@
 <p> XSS me in a HTML context with $_GET[htmlcontext] <br> </p>
 <p>
 <?php 
-    echo htmlspecialchars($_GET['htmlcontext'], ENT_QUOTES);
+    echo htmlspecialchars($_GET['htmlcontext']);
 ?> 
 </p>
 
 <p> XSS me in an attribute context without quotes with  $_GET[attributecontext1] and with double quotes with  $_GET[attributecontext2] and with single quotes with   $_GET[attributecontext3] </p>    
 
     <img src = <?php echo htmlspecialchars($_GET['attributecontext1'], ENT_QUOTES)?> >
-    <img src =" <?php echo $_GET['attributecontext2']?> ">
-    <img src =' <?php echo $_GET['attributecontext3']?> '>
+    <img src =" <?php echo htmlspecialchars($_GET['attributecontext2'], ENT_QUOTES)?> ">
+    <img src =' <?php echo htmlspecialchars($_GET['attributecontext3'], ENT_QUOTES)?> '>
 
 <p> XSS me inside a script  context with  $_GET[scriptcontext] 
  <script> 
-       x = <?php echo $_GET['scriptcontext'] ?>; 
+       x = <?php echo htmlspecialchars($_GET['scriptcontext'], ENT_QUOTES) ?>; 
 	function foo(){alert(1)};
       console.log(x);  
   </script>
 
 <p> XSS me inside an onerror attribute  context with  $_GET[attributecontextonerror] </P> 
 
-    <img src =1  onerror=<?php echo $_GET['attributecontextonerror']?> >
+    <img src =1  onerror=<?php echo htmlspecialchars($_GET['attributecontextonerror'], ENT_QUOTES)?> >
 
 </body> 
  
